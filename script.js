@@ -39,6 +39,7 @@ function addScheme(a){
     document.getElementById("five").style.backgroundColor = getColor(a, 1);
 }
 
+// Ändrar storleken 
 document.querySelector("#bigger").addEventListener("click", function(){
     document.getElementById("one").style.setProperty("width", "30vw");
     document.getElementById("one").style.setProperty("height", "30vw");
